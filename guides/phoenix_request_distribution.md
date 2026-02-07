@@ -457,3 +457,8 @@ code. Your controllers, contexts, Repo calls, and PubSub all work identically on
 the runner nodes because they boot your entire application. The key insight is
 that you are not distributing the HTTP layer — you are distributing the *compute*
 behind it.
+
+## Working Example
+
+See [`examples/flame_example/`](../examples/flame_example/) for a complete,
+runnable Phoenix app that demonstrates all the patterns described in this guide.
